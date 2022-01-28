@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'cursiva', sans-serif;
+}
+
+body{
+    background-color: #2ab3a6;
+}
+
+.calculadora{
+    background-color: #000807;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+table td{
+    display: inline-block;
+}
+
+.btn{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: #0c1a21;
+    color: #dfdfdf;
+    font-size: 16px;
+    transition: all 500ms ease-in-out;
+}
+
+.btn:hover{
+    background-color: #162f3b;
+}
+
+.ac{
+    background: #c52b59;
+}
+
+.ac:hover{
+    background-color: #dd6b8e;
+}
+
+.especial{
+    background-color: #228f84;
+}
+
+.especial:hover{
+    background-color: #18646b;
+}
+
+.igual{
+    background-color: #0f8a46;
+}
+
+.igual:hover{
+    background-color: #0de06c;
+}
+
+.result{
+    height: 100px;
+    color: #0de06c;
+    text-align: right;
+    font-size: 35px;
+    word-wrap: break-word;
+    border-bottom: 1px solid #25968a;
+}
